@@ -1,5 +1,5 @@
 h1{
-  font-family: "Goudy Old Style", "Calisto MT", serif;
+  font-family: 'Josefin Sans', Helvetica, sans-serif;
   font-size: 42px;
   font-weight: bolder;;
   color: #F5D7EA;
@@ -8,7 +8,7 @@ h1{
 
 p {
   color: #CDFFE5;
-  font-family: Helvetica, Arial, sans-serif;
+  font-family: 'Old Standard TT', Georgia, serif;
   font-weight: lighter;
   font-size: 20px;
   text-align: left;
