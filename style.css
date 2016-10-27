@@ -30,24 +30,32 @@ body{
   padding: 10px;
 }
 
+.main {
+  text-align: left
+}
+
 .wrapper{
 	display: flex;
 	flex-flow: row wrap;
   width: 95%;
   margin: auto;
   background-color: #FFFFCE;
-  padding-left: 10px;
-  padding-right: 10px;
   padding-bottom: .1px;
 	text-align: center;
 }
 
 img {
   border-style: none;
+	width: 100%;
+}
+.aside {
+	background-color: #BDF271;
 }
 
-.nav{
-  padding: 0px;
+.footer {
+	background-color: #BDF271;
+	font-size: .8rem;
+	text-align: left;
 }
 
 .nav{
