@@ -81,11 +81,42 @@ img {
   border-bottom:1px solid white;
 }
 
-.nav a:hover, a:active {
-background-color: #FFFFCE;
-color: #01A2A6;
-}
-
 .nav li:last-of-type a{
   border-bottom: none;
+}
+
+@media (min-width: 800px){
+    .nav {
+      flex-flow: row;
+      justify-content: flex-end;
+  }
+    .nav a:hover {
+			background-color: #FFFFCE;
+			color: #01A2A6;
+    }
+    .aside {
+      flex: 1 auto;
+			order: 2;
+    }
+    .main {
+      flex: 3 0px;
+			order: 1;
+    }
+
+    .footer{
+      order: 3;
+    }
+
+    .main {
+      display: flex;
+      flex-flow: row;
+    }
+    img {
+      width: 50%;
+      height: 50%;
+      margin-right: 10px;
+    }
+    .nav a {
+      border: none;
+    }
 }
