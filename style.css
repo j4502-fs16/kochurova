@@ -38,11 +38,11 @@ img {
   border-style: none;
 }
 
-#nav{
+.nav{
   padding: 0px;
 }
 
-#nav li {
+.nav li {
   float: left;
   list-style-type: none;
   margin: 0;
@@ -50,7 +50,7 @@ img {
   width: 20%;
 }
 
-#nav a:link, a:visited {
+.nav a:link, a:visited {
   display: block;
   color: #2F2933;
   background-color: #BDF271;
@@ -62,7 +62,7 @@ img {
   padding: 4px;
 }
 
-#nav a:hover, a:active {
+.nav a:hover, a:active {
 background-color: #FFFFCE;
 color: #01A2A6;
 }
