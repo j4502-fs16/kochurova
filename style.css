@@ -29,9 +29,12 @@ body{
   flex: 1 100%;
   padding: 10px;
 }
-
+.header {
+	background-color: gray;
+}
 .main {
-  text-align: left
+  text-align: left;
+
 }
 
 .wrapper{
@@ -41,6 +44,14 @@ body{
   margin: auto;
   background-color: #FFFFCE;
   padding-bottom: .1px;
+	text-align: center;
+}
+.h1wrapper{
+	display: flex;
+	flex-flow: row wrap;
+	width: 95%;
+	margin: auto;
+	padding-bottom: .1px;
 	text-align: center;
 }
 
@@ -65,6 +76,7 @@ img {
   padding: 0;
 	display: flex;
 	flex-flow: column;
+	justify-content: flex-center;
 }
 
 .nav a{
@@ -88,35 +100,48 @@ img {
 @media (min-width: 800px){
     .nav {
       flex-flow: row;
-      justify-content: flex-end;
+      justify-content: flex-center;
+			margin-left: 25px;
+			display: flex;
+			justify-content: space-between;
   }
     .nav a:hover {
 			background-color: #FFFFCE;
 			color: #01A2A6;
     }
+
     .aside {
-      flex: 1 auto;
 			order: 2;
     }
+
     .main {
-      flex: 3 0px;
 			order: 1;
+			display: flex;
     }
 
     .footer{
       order: 3;
     }
 
-    .main {
-      display: flex;
-      flex-flow: row;
-    }
     img {
-      width: 50%;
-      height: 50%;
-      margin-right: 10px;
+      width: 30%;
+      height: 70%;
+      margin: 10px;
+			align-items: flex-end;
     }
     .nav a {
       border: none;
     }
+
+		.main, .aside{
+		  flex: 2 30%;
+		  padding: 10px;
+		}
+
+		.h1wrapper{
+			display: flex;
+			width: 95%;
+			margin: auto;
+			justify-content: center;
+		}
 }
