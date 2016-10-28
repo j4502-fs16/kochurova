@@ -96,7 +96,7 @@ img {
   border-bottom: none;
 }
 
-@media (min-width: 700px){
+@media (min-width: 800px){
     .nav {
       flex-flow: row;
       justify-content: flex-center;
@@ -126,7 +126,7 @@ img {
     }
 
     img {
-      width: 70%;
+      width: 90%;
       margin: 10px;
     }
 
