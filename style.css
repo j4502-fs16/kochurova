@@ -75,7 +75,7 @@ img {
   padding: 0;
 	display: flex;
 	flex-flow: column;
-	justify-content: flex-center;
+	justify-content: center;
 }
 
 .nav a{
@@ -99,7 +99,7 @@ img {
 @media (min-width: 800px){
     .nav {
       flex-flow: row;
-      justify-content: flex-center;
+      justify-content: flex-start;
 			margin-left: 25px;
 			display: flex;
   }
