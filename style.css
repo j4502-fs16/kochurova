@@ -35,6 +35,7 @@ body{
 }
 .main {
   text-align: left;
+	background-color: #FFFFCE;
 }
 
 .wrapper{
@@ -42,7 +43,6 @@ body{
 	flex-flow: row wrap;
   width: 95%;
   margin: auto;
-  background-color: #FFFFCE;
   padding-bottom: .1px;
 }
 .h1wrapper{
@@ -57,7 +57,9 @@ body{
 img {
   border-style: none;
 	width: 100%;
+	margin: 0px;
 }
+
 .aside {
 	background-color: #BDF271;
 	border-top: black solid;
@@ -96,7 +98,11 @@ img {
   border-bottom: none;
 }
 
-@media (min-width: 800px){
+#cat {
+    display: none;
+}
+
+@media screen and (min-width:600px){
     .nav {
       flex-flow: row;
       justify-content: flex-start;
@@ -127,7 +133,7 @@ img {
 
     img {
       width: 90%;
-      margin: 10px;
+      margin: 0px;
     }
 
     .nav a {
@@ -140,4 +146,34 @@ img {
 			margin: auto;
 			justify-content: center;
 		}
+
+		#cat {
+			display: block;
+		}
+}
+
+@media screen and (min-width:1000px) {
+	.aside {
+		flex: 1;
+		order: 2;
+		border-top: none;
+		background: #ADDD67;
+		margin-left: 10px;
+	}
+
+	.main {
+		order: 1;
+		display: flex;
+		flex: 4 0px;
+		flex-flow: row;
+	}
+
+}
+
+@media screen and (max-width: 1100px) {
+
+	p {
+		width: 95%;
+		max-width: 60em;
+	}
 }
