@@ -13,6 +13,15 @@ h1{
   font-size: 2rem;
 }
 
+.menu-trigger {
+    order: 1;
+    font-size: 1.75em;
+    width: 2em;
+		text-decoration: none;
+		color: #2F2933;
+		margin: auto;
+}
+
 p {
   color: #2F2933;
   font-family: 'Raleway', Helvetica, sans-serif;
