@@ -84,9 +84,10 @@ img {
   list-style-type: none;
   margin: 0;
   padding: 0;
-	display: flex;
+	display: none;
+	/*display: flex;
 	flex-flow: column;
-	justify-content: center;
+	justify-content: center;*/
 }
 
 .nav a{
@@ -111,9 +112,9 @@ img {
     display: none;
 }
 
-nav ul {
+/*nav ul {
   display: none;
-}
+}*/
 
 @media screen and (min-width:700px){
     .nav {
@@ -145,6 +146,7 @@ nav ul {
     }
 
     img {
+			display: block; 
       width: 90%;
       margin: 0px;
     }
